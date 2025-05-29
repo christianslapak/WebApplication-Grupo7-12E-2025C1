@@ -6,6 +6,8 @@ namespace WebApplication_Grupo7_12E_2025C1
         {
             var builder = WebApplication.CreateBuilder(args);
 
+            Console.WriteLine("Hola Grupo");
+
             // Add services to the container.
             builder.Services.AddControllersWithViews();
 
